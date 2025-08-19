@@ -13,11 +13,11 @@ export default function Summary() {
         transition={{ duration: 0.8 }}
         className="space-y-1"
       >
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-rose-600 via-indigo-500 to-sky-500 bg-clip-text text-transparent inline-block">
+        <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-rose-600 via-indigo-500 to-sky-500 bg-clip-text text-transparent inline-block">
           Med Hedi Hammami
         </h1>
         <p className="text-gray-600 dark:text-gray-400">Full Stack Developer</p>
-        <p className="">Tunis ,Tunisia</p>
+        <p className="text-sm md:text-base">Tunis ,Tunisia</p>
       </motion.div>
 
       <motion.div
@@ -26,7 +26,7 @@ export default function Summary() {
         transition={{ duration: 0.8 }}
         className="space-y-3"
       >
-        <h2 className="text-lg font-semibold">
+        <h2 className="text-base md:text-lg font-semibold">
           Crafting Full-Stack Experiences for the Modern Web
         </h2>
         <p className="text-gray-600 text-sm dark:text-gray-400 max-w-2xl">

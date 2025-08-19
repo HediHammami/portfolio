@@ -30,7 +30,7 @@ export default function RootLayout({
         >
           <SpotlightBackground />
           <Header />
-          <main className="mx-auto max-w-xl px-4 py-8">{children}</main>
+          <main className="mx-auto max-w-xl px-4 py-4 md:py-8">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
