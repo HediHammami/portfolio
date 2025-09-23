@@ -74,4 +74,15 @@ export const projects: Project[] = [
       "Developed a fast food ordering app with React Native for cross-platform mobile support. Integrated Appwrite backend for user authentication, database, and order management. Implemented smooth navigation, responsive UI components, and real-time cart updates for an easy ordering experience.",
     links: { live: "#", repo: "https://github.com/HediHammami/fast-food-app" },
   },
+  {
+    id: "chat-app",
+    title: "BEAM",
+    image: "/chat-app.png",
+    stack: ["Nextjs", "Convex","Clerkjs","GetStream"],
+    summary:
+      "BEAM is a real-time chat application built with Next.js, leveraging Clerk for user authentication, Convex for the database, and the GetStream API for core messaging functionality.",
+    details:
+      "A real-time chat application built with Next.js, Clerk, Convex, and GetStream to provide a fast and secure messaging platform.",
+    links: { live: "https://chat-app-pi-blue.vercel.app/", repo: "https://github.com/HediHammami/fast-food-app" },
+  },
 ];
