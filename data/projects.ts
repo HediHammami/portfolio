@@ -83,6 +83,6 @@ export const projects: Project[] = [
       "BEAM is a real-time chat application built with Next.js, leveraging Clerk for user authentication, Convex for the database, and the GetStream API for core messaging functionality.",
     details:
       "A real-time chat application built with Next.js, Clerk, Convex, and GetStream to provide a fast and secure messaging platform.",
-    links: { live: "https://chat-app-pi-blue.vercel.app/", repo: "https://github.com/HediHammami/fast-food-app" },
+    links: { live: "https://chat-app-pi-blue.vercel.app/", repo: "https://github.com/HediHammami/portfolio" },
   },
 ];
